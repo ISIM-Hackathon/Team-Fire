@@ -101,4 +101,15 @@ void RIGHT (void)
     analogWrite(mot3,255);
     analogWrite(mot4,0);
     }
+     analogWrite(mot1,255);
+   analogWrite(mot2,0);
+}
+void STOP (void)
+{
+analogWrite(mot1,0);
+analogWrite(mot2,0);
+analogWrite(mot3,0);
+analogWrite(mot4,0);
+  
+}
 
